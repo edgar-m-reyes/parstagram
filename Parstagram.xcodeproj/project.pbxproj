@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155EF62F2535747300CE0B3A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155EF62E2535747300CE0B3A /* PostCell.swift */; };
 		1590EC022531895A003BBBE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590EC012531895A003BBBE1 /* LoginViewController.swift */; };
 		1590EC0625318ADA003BBBE1 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590EC0525318ADA003BBBE1 /* FeedViewController.swift */; };
 		1590EC0D2531940B003BBBE1 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590EC0C2531940B003BBBE1 /* CameraViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		07C8910894AA7FDA113276B9 /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		155EF62E2535747300CE0B3A /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		1590EC012531895A003BBBE1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1590EC0525318ADA003BBBE1 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		1590EC0C2531940B003BBBE1 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				1590EC012531895A003BBBE1 /* LoginViewController.swift */,
 				1590EC0525318ADA003BBBE1 /* FeedViewController.swift */,
 				1590EC0C2531940B003BBBE1 /* CameraViewController.swift */,
+				155EF62E2535747300CE0B3A /* PostCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				15EC83682531838300AFA0CD /* AppDelegate.swift in Sources */,
 				1590EC0625318ADA003BBBE1 /* FeedViewController.swift in Sources */,
 				15EC836A2531838300AFA0CD /* SceneDelegate.swift in Sources */,
+				155EF62F2535747300CE0B3A /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
