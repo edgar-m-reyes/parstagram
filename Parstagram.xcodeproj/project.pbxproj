@@ -16,6 +16,7 @@
 		15EC836F2531838300AFA0CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EC836D2531838300AFA0CD /* Main.storyboard */; };
 		15EC83712531838400AFA0CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EC83702531838400AFA0CD /* Assets.xcassets */; };
 		15EC83742531838400AFA0CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EC83722531838400AFA0CD /* LaunchScreen.storyboard */; };
+		15FBAA35253EBB8D00F298E8 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FBAA34253EBB8D00F298E8 /* CommentCell.swift */; };
 		38E4CC1B407EE27942136D5D /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25558C79FF82DB7AD96B9CB0 /* Pods_Parstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		15EC83702531838400AFA0CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15EC83732531838400AFA0CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15EC83752531838400AFA0CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FBAA34253EBB8D00F298E8 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		25558C79FF82DB7AD96B9CB0 /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD82092AE86B3C6EA18F4642 /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +81,7 @@
 				1590EC0525318ADA003BBBE1 /* FeedViewController.swift */,
 				1590EC0C2531940B003BBBE1 /* CameraViewController.swift */,
 				155EF62E2535747300CE0B3A /* PostCell.swift */,
+				15FBAA34253EBB8D00F298E8 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				1590EC0625318ADA003BBBE1 /* FeedViewController.swift in Sources */,
 				15EC836A2531838300AFA0CD /* SceneDelegate.swift in Sources */,
 				155EF62F2535747300CE0B3A /* PostCell.swift in Sources */,
+				15FBAA35253EBB8D00F298E8 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
